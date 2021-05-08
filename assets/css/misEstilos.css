@@ -1,0 +1,257 @@
+/*    aca coloco todos mis estilos    */  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.estiloBody {
+    font-family: 'Roboto', sans-serif;
+    background-color: aquamarine;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*  temporales */
+    
+}
+
+
+.estiloTitulo{
+    font-size: larger;
+    font-weight: 400;
+    margin: 15px 0 15px 0;
+    text-align:center;
+}
+
+.contenedorImg {
+    
+
+    width: 100%;
+    padding: 10px;
+
+ 
+
+}
+
+/*    estilos de contenedores    */   
+
+.contenedor20 {
+    width: 20%;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #000000;
+}
+
+.contenedor40 {
+    width: 40%;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #000000;
+}
+
+.contenedor70 {
+    width: 70%;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.contenedor80 {
+    width: 80%;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #000000;
+}
+
+/*    estilos del Header    */  
+
+.estiloHeader {
+
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    padding: 20px;
+    margin-top: 25px;
+    border-bottom: 5px solid #ff8000;
+
+    display: flex;
+    justify-content: space-between;
+
+    /*  temporales */
+   
+    
+}
+
+.estiloUl {
+    display: flex;
+}
+
+.estiloUlTex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.estiloLi {
+    list-style: none;
+    background-color:blue;
+    margin: 20px;
+    padding: 5px 15px 5px 15px;
+
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+.liSeparador {
+    list-style: none;
+    text-align: center;
+    
+}
+
+
+.estiloLiTex {
+    list-style: none;
+    margin: 20 20px 0 20px;
+    padding: 5px 15px 5px 15px;
+  
+}
+
+
+.estiloLiTex:hover {
+    background-color: antiquewhite;
+  
+  
+}
+
+.estiloLi:hover {
+    background-color: #ff8000;
+}
+
+.estiloLink {
+    text-decoration: none;
+    color: white;
+}
+
+.estiloLinkTex {
+    text-decoration: none;
+    color: rgb(88, 84, 84);
+    font-size: larger;
+    font-weight: 300;
+}
+/*    estilos del Main    */  
+
+.estiloMain {
+
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /*  temporales */
+      
+}
+
+.estiloH1 {
+    font-size: larger;
+    font-weight: 400;
+    margin: 30px 0 30px 0;
+}
+
+.estiloSeccion {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    
+    justify-content: space-around;
+}
+
+.contenedorImgPrincipal {
+    
+
+    width: 40%;
+    padding: 10px;
+
+    border-radius: 15px;
+    border: 1px solid #000000;
+
+}
+
+
+
+
+.imgPrincipal {
+    width: 100%;
+}
+
+.contenedorTxtPrincipal {
+   
+    width: 100%;
+}
+
+/*    estilos del footer    */ 
+
+.estiloFooter {
+
+    background-color: gray;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+
+    /*  temporales */
+  
+    
+}
+
+.estiloGitHub {
+    display: flex;
+    align-items: center;
+}
+.imgIco {
+    width: 35px;
+    margin-right: 25px;
+}
+
+.estiloTxtSmall {
+    font-size: small;
+    font-weight: 500;
+}
+
+.estiloH3 {
+    font-size: small;
+    font-weight: 400;
+}
+
+
+/* table */ 
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
